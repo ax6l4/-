@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 250" role="img" aria-labelledby="title desc">
+  <title id="title">شعار فريق الروضة الرياضي الثقافي</title>
+  <desc id="desc">شعار مؤقت بدرع وشرفات حصن وكرة قدم وكتاب مفتوح، من وحي وصف الشعار الأصلي</desc>
+  <defs><style>.g{fill:#123c35}.gold{fill:#b89454}.line{fill:none;stroke:#123c35;stroke-width:5;stroke-linecap:round;stroke-linejoin:round}.txt{font-family:Tahoma,Arial,sans-serif;fill:#123c35}</style></defs>
+  <g transform="translate(8 8)">
+    <path class="g" d="M39 27V12h21v15h18V12h21v15h18V12h21v15h18V12h21v15h19v93c0 48-39 83-98 105-59-22-98-57-98-105V27z"/>
+    <path d="M49 39h137v67c0 39-30 66-68.5 83C79 172 49 145 49 106z" fill="#fff"/>
+    <circle cx="117.5" cy="103" r="39" fill="#b89454"/>
+    <path d="m117.5 83 13 9-5 15h-16l-5-15zm-21 15 8 9-4 14-14-2-7-13zm42 0 14 8-7 13-14 2-4-14zm-41 30 13 2 7 12-10 11-15-7zm39 0 5 18-15 7-10-11 7-12z" fill="#fff"/>
+    <path class="line" d="M69 151c16-9 31-9 48 0v21c-17-9-32-9-48 0zm97 0c-16-9-31-9-48 0v21c17-9 32-9 48 0M117 151v22"/>
+    <path class="line" d="M69 150l-7-5m103 5 7-5"/>
+    <text x="117" y="75" text-anchor="middle" font-family="Tahoma,Arial,sans-serif" font-size="15" font-weight="bold" fill="#123c35">ER</text>
+  </g>
+  <g class="txt" text-anchor="end">
+    <text x="604" y="96" font-size="34" font-weight="bold">فريق الروضة الرياضي الثقافي</text>
+    <text x="604" y="139" font-size="20" letter-spacing=".2">Al Roudah Sports &amp; Cultural Team</text>
+    <text x="604" y="183" font-size="22" font-weight="bold" fill="#b89454">١٩٧٥ · 1975</text>
+  </g>
+</svg>

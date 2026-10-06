@@ -1,0 +1,1029 @@
+:root{font-family:"Tajawal",sans-serif;color:#18352f;background:#f6f5f0;font-synthesis:none;text-rendering:optimizeLegibility;--green:#123c35;--green-light:#e8efeb;--gold:#b89454;--gold-light:#f4eddf;--ink:#18352f;--muted:#728079;--line:#e6e8e1;--white:#fff;--danger:#a83e38}
+*{box-sizing:border-box}body{margin:0;min-width:320px;min-height:100vh;background:radial-gradient(ellipse at 50% 0,#f0eee5 0,transparent 48%),#f6f5f0}button,input,select{font:inherit}button,a{-webkit-tap-highlight-color:transparent}.site-shell{min-height:100vh;display:flex;flex-direction:column}.site-header{width:min(1120px,100%);margin:0 auto;padding:18px 24px;display:flex;align-items:center;justify-content:space-between}.brand{display:flex;align-items:center}.brand img{display:block;width:180px;height:78px;object-fit:contain;object-position:right center}.admin-link{display:inline-flex;align-items:center;gap:8px;color:var(--green);font-size:15px;font-weight:700;text-decoration:none;padding:11px 14px;border-radius:12px}.admin-link:hover{background:var(--green-light)}.main-content{flex:1;display:grid;place-items:center;padding:25px 16px 50px}.registration-card,.login-card{position:relative;overflow:hidden;width:min(100%,490px);padding:34px 38px 36px;background:var(--white);border:1px solid #eeeee8;border-radius:24px;box-shadow:0 18px 60px #1b33220c;text-align:right}.registration-card:before,.login-card:before{content:"";height:7px;position:absolute;inset:0 0 auto;background:repeating-linear-gradient(90deg,var(--green) 0 24px,transparent 24px 31px);opacity:.9}.ramadan-decoration{height:42px;display:flex;justify-content:center;align-items:center;gap:22px;color:var(--gold)}.crescent{font-size:24px}.lantern{font-size:20px}.eyebrow{color:var(--gold);font-weight:800;font-size:14px;letter-spacing:.02em}.registration-card h1,.login-card h1{margin:6px 0;font-size:30px;line-height:1.35;color:var(--green)}.intro{margin:0 0 24px;color:var(--muted);font-size:15px}.progress{margin:24px 0 25px}.progress-label{display:flex;justify-content:space-between;margin-bottom:9px;color:var(--muted);font-size:13px;font-weight:700}.progress-track{height:6px;background:#eff0eb;border-radius:99px;overflow:hidden}.progress-track span{display:block;height:100%;width:33.333%;background:var(--gold);border-radius:99px;transition:width .25s ease}label:not(.choice-card){display:block;margin:18px 0 8px;color:var(--ink);font-weight:700;font-size:15px}input:not([type=radio]),select{width:100%;min-height:50px;padding:12px 15px;color:var(--ink);border:1px solid #dfe3dc;border-radius:12px;background:#fff;outline:none;transition:border-color .18s,box-shadow .18s}input::placeholder{color:#a0aaa4}input:focus,select:focus{border-color:var(--green);box-shadow:0 0 0 3px #123c3515}.field-hint{margin:7px 0 19px;color:var(--muted);font-size:13px}.primary-button,.secondary-button{min-height:49px;padding:11px 19px;border:0;border-radius:12px;font-size:16px;font-weight:800;cursor:pointer;display:inline-flex;justify-content:center;align-items:center;gap:9px;text-decoration:none;transition:background .18s,transform .18s}.primary-button{width:100%;background:var(--green);color:#fff;margin-top:24px}.primary-button:hover{background:#0d302b}.primary-button:active,.secondary-button:active{transform:scale(.99)}.primary-button:disabled{opacity:.65;cursor:wait}.secondary-button{color:var(--green);background:var(--green-light)}.secondary-button:hover{background:#dce7e1}.choice-fieldset{margin:0;padding:0;border:0}.choice-fieldset legend{margin:0 0 17px;font-size:20px;font-weight:800;color:var(--green)}.choice-card{display:flex;align-items:center;gap:13px;min-height:62px;margin:10px 0;padding:12px 15px;border:1px solid var(--line);border-radius:14px;cursor:pointer;transition:border-color .18s,background .18s;font-weight:700}.choice-card:has(input:checked){border-color:var(--gold);background:#fbf9f4}.choice-card input{position:absolute;opacity:0;pointer-events:none}.choice-card:focus-within{outline:3px solid #b8945430}.choice-icon{width:32px;text-align:center;color:var(--gold);font-size:21px}.radio-mark{width:19px;height:19px;margin-inline-start:auto;border:1.5px solid #bbc4bd;border-radius:50%;position:relative}.choice-card input:checked~.radio-mark{border-color:var(--green)}.choice-card input:checked~.radio-mark:after{content:"";position:absolute;inset:4px;border-radius:50%;background:var(--green)}.button-row{display:flex;gap:11px;margin-top:22px}.button-row .primary-button{flex:1;margin:0}.button-row .secondary-button{min-width:96px}.notice{margin:12px 0;padding:12px 14px;border-radius:11px;color:#87332e;background:#fbefed;font-weight:700;font-size:14px}.notice[hidden],[hidden]{display:none!important}.success-panel{text-align:center;padding:15px 0 0}.success-icon{margin:0 auto 14px;width:65px;height:65px;display:grid;place-items:center;color:#fff;background:var(--green);border-radius:50%;font-size:34px}.success-panel h2{margin:0 0 5px;color:var(--green);font-size:25px}.success-panel p{color:var(--muted);margin:0 0 23px}.home-button{width:100%}.site-footer{width:min(1120px,100%);padding:16px 24px 23px;margin:0 auto;display:flex;align-items:center;justify-content:space-between;color:#7e8881;font-size:13px}.footer-pattern{color:#b89454;letter-spacing:4px;font-size:11px}.admin-main{width:min(1120px,100%);margin:0 auto;padding:28px 24px 54px;flex:1}.login-card{margin:24px auto;text-align:right}.login-logo{display:block;width:190px;height:88px;object-fit:contain;object-position:center;margin:2px auto 18px}.login-card .primary-button{margin-top:22px}.dashboard-heading{display:flex;justify-content:space-between;align-items:center;margin-bottom:23px}.dashboard-heading h1{margin:5px 0;color:var(--green);font-size:30px}.dashboard-heading .intro{margin:0}.stats-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-bottom:21px}.stat-card{padding:17px 19px;background:#fff;border:1px solid var(--line);border-radius:15px}.stat-card span{display:block;color:var(--muted);font-size:14px;font-weight:600}.stat-card strong{display:block;margin-top:5px;color:var(--green);font-size:28px}.toolbar{display:grid;grid-template-columns:minmax(190px,1fr) repeat(3,minmax(130px,.65fr)) auto;gap:9px;margin-bottom:13px;align-items:center}.search-field{position:relative}.search-field>span{position:absolute;right:12px;top:6px;font-size:25px;color:var(--muted)}.search-field input{padding-right:42px}.filter-field select{min-height:48px;padding:9px 10px;font-size:14px}.print-button{width:auto;margin:0;white-space:nowrap;min-height:48px;padding-inline:15px;font-size:14px}.table-wrap{overflow:auto;border:1px solid var(--line);border-radius:15px;background:#fff}.registrants-table{border-collapse:collapse;width:100%;min-width:850px;text-align:right;font-size:14px}.registrants-table th{padding:13px 12px;background:#f5f6f2;color:var(--green);font-weight:800;white-space:nowrap}.registrants-table td{padding:12px;border-top:1px solid #eff0eb;white-space:nowrap}.registrants-table tbody tr:hover{background:#fbfbf8}.boolean-yes{color:#17664f;font-weight:800}.boolean-no{color:#929b95}.delete-button{color:var(--danger);border:0;background:transparent;border-radius:8px;padding:7px 10px;font-weight:700;cursor:pointer}.delete-button:hover{background:#fbefed}.empty-state{padding:35px 15px;text-align:center;color:var(--muted)}.loading-state{min-height:60vh;display:flex;justify-content:center;align-items:center;gap:12px;color:var(--muted)}.spinner{width:21px;height:21px;border:2px solid #dce3dd;border-top-color:var(--green);border-radius:50%;animation:spin .8s linear infinite}@keyframes spin{to{transform:rotate(360deg)}}.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+@media(max-width:760px){.site-header{padding:12px 16px}.brand img{width:144px;height:66px}.admin-link{font-size:14px;padding:9px}.main-content{padding:15px 14px 35px;align-items:start}.registration-card{padding:26px 23px 29px;border-radius:20px}.registration-card h1,.login-card h1{font-size:27px}.site-footer{padding:15px 16px 20px;font-size:12px}.admin-main{padding:18px 14px 35px}.dashboard-heading h1{font-size:26px}.stats-grid{grid-template-columns:repeat(2,1fr);gap:9px}.stat-card{padding:13px}.stat-card strong{font-size:24px}.toolbar{grid-template-columns:repeat(2,minmax(0,1fr))}.search-field{grid-column:1/-1}.print-button{width:100%;grid-column:1/-1}.dashboard-heading{align-items:flex-start}.dashboard-heading>.secondary-button{min-height:43px;padding:8px 12px;font-size:14px}.login-card{padding:29px 23px}.table-wrap{margin-inline:-2px}}
+@media(max-width:380px){.registration-card{padding-inline:18px}.button-row .secondary-button{min-width:82px}.site-footer{gap:8px}.footer-pattern{letter-spacing:2px}}
+
+/* Monochrome team identity */
+:root{
+  color:#000;
+  background:#fff;
+  --green:#000;
+  --green-light:#fff;
+  --gold:#000;
+  --gold-light:#f5f5f5;
+  --ink:#000;
+  --muted:#111;
+  --line:#111;
+  --white:#fff;
+  --danger:#111;
+}
+html,body,.site-shell{background:#fff}
+body{color:#000;background:#fff}
+.registration-card,.login-card,.stat-card,.table-wrap{
+  background:#fff;
+  border:1px solid #000;
+  border-radius:8px;
+  box-shadow:0 2px 8px #0000000a;
+}
+.registration-card:before,.login-card:before{background:repeating-linear-gradient(90deg,#000 0 24px,transparent 24px 31px)}
+.brand img,.login-logo{background:#fff}
+.admin-link,.admin-link:hover{color:#000}
+.admin-link:hover{background:#f5f5f5}
+.ramadan-decoration,.crescent,.lantern,.eyebrow,.registration-card h1,.login-card h1,
+.success-panel h2,.dashboard-heading h1,.choice-fieldset legend,.choice-icon,
+.stat-card strong,.stat-card span,.registrants-table th,.registrants-table td,
+.empty-state,.loading-state,.site-footer,.footer-pattern,.progress-label,
+.intro,.field-hint,.search-field>span,.delete-button,.boolean-yes,.boolean-no{color:#000}
+.progress-track{background:#eee;border-radius:4px}
+.progress-track span{background:#000;border-radius:4px}
+.registration-card h1,.login-card h1,.dashboard-heading h1{font-weight:800}
+label:not(.choice-card){color:#000;font-size:16px}
+.field-hint,.intro,.progress-label,.site-footer,.stat-card span,.registrants-table,
+.empty-state,.loading-state{font-size:16px}
+input:not([type=radio]),select{
+  min-height:52px;
+  color:#000;
+  border:2px solid #000;
+  border-radius:8px;
+  background:#fff;
+  font-size:17px;
+}
+input::placeholder{color:#111}
+input:focus,select:focus{border:3px solid #000;box-shadow:none}
+.primary-button,.secondary-button{
+  min-height:52px;
+  border:2px solid #000;
+  border-radius:8px;
+  transition:background .18s,color .18s,transform .18s;
+}
+.primary-button,.primary-button:hover{background:#000;color:#fff}
+.primary-button:hover,.primary-button:active{
+  background:#fff;
+  color:#000;
+  border:3px solid #000;
+}
+.primary-button:disabled{background:#111;color:#fff;opacity:1}
+.secondary-button,.secondary-button:hover{
+  background:#fff;
+  color:#000;
+  border:2px solid #000;
+}
+.secondary-button:hover{background:#f5f5f5}
+.choice-card{
+  min-height:64px;
+  border:2px solid #000;
+  border-radius:8px;
+  color:#000;
+}
+.choice-card:has(input:checked){
+  border-color:#000;
+  background:#000;
+  color:#fff;
+}
+.choice-card:has(input:checked) .choice-icon{color:#fff}
+.choice-card:focus-within{outline:3px solid #111;outline-offset:2px}
+.radio-mark{border:2px solid #000;border-radius:50%}
+.choice-card input:checked~.radio-mark{border-color:#fff;background:#000}
+.choice-card input:checked~.radio-mark:after{
+  content:"✓";
+  inset:0;
+  display:grid;
+  place-items:center;
+  border-radius:0;
+  background:transparent;
+  color:#fff;
+  font-size:14px;
+  font-weight:800;
+}
+.notice{
+  position:relative;
+  padding:12px 42px 12px 14px;
+  border:2px solid #000;
+  border-radius:8px;
+  background:#fff;
+  color:#000;
+  font-size:16px;
+}
+.notice:before{
+  content:"!";
+  position:absolute;
+  right:14px;
+  top:50%;
+  width:20px;
+  height:20px;
+  display:grid;
+  place-items:center;
+  border:2px solid #000;
+  border-radius:50%;
+  transform:translateY(-50%);
+  font-weight:800;
+}
+.success-icon{background:#000;color:#fff}
+.stat-card{border:1px solid #000;border-radius:8px}
+.registrants-table th{background:#000;color:#fff}
+.registrants-table th,.registrants-table td{border-color:#111}
+.registrants-table tbody tr:nth-child(even){background:#f5f5f5}
+.registrants-table tbody tr:hover{background:#eee}
+.boolean-yes,.boolean-no{font-weight:800}
+.delete-button,.delete-button:hover{color:#000}
+.delete-button:hover{background:#eee}
+.spinner{border-color:#eee;border-top-color:#000}
+.dashboard-heading>.secondary-button{min-height:52px}
+.print-button{min-height:52px;font-size:16px}
+.eyebrow{font-size:16px}
+.delete-button{font-size:16px}
+a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible{
+  outline:3px solid #000;
+  outline-offset:2px;
+}
+.notice[hidden]:before{content:none}
+
+@media(max-width:760px){
+  .intro,.field-hint,.progress-label,.site-footer,.stat-card span,.registrants-table,
+  .empty-state,.loading-state,.admin-link,.filter-field select,.delete-button{font-size:16px}
+  .registration-card,.login-card{padding:28px 22px}
+}
+@media(max-width:380px){.registration-card,.login-card{padding-inline:18px}}
+
+/* Registration page layout refinement */
+.site-shell:has(#registration-form) .site-header{
+  width:min(1080px,100%);
+  min-height:126px;
+  padding:12px 28px;
+  border-bottom:1px solid #eee;
+}
+.site-shell:has(#registration-form) .brand img{
+  width:208px;
+  height:108px;
+  object-position:right center;
+}
+.site-shell:has(#registration-form) .admin-link{
+  min-height:48px;
+  padding:10px 16px;
+  border:1px solid #000;
+  border-radius:8px;
+  font-size:16px;
+}
+.site-shell:has(#registration-form) .main-content{
+  padding:36px 18px 48px;
+}
+.registration-card{
+  width:min(100%,560px);
+  padding:37px 44px 42px;
+  border:1px solid #ddd;
+  border-radius:14px;
+  box-shadow:0 10px 34px #0000000a;
+}
+.registration-card:before{
+  height:6px;
+  background:#000;
+}
+.ramadan-decoration{
+  height:38px;
+  margin:0 0 10px;
+  gap:25px;
+}
+.crescent{font-size:25px}
+.lantern{font-size:21px}
+.registration-card .eyebrow{
+  margin-top:3px;
+  font-size:16px;
+}
+.registration-card h1{
+  margin:7px 0 4px;
+  font-size:34px;
+  line-height:1.35;
+}
+.registration-card .intro{
+  margin:0;
+  font-size:17px;
+  line-height:1.7;
+}
+.registration-card .progress{
+  margin:28px 0 30px;
+}
+.registration-card .progress-label{
+  margin-bottom:11px;
+  font-size:15px;
+}
+.registration-card .progress-track{height:8px}
+.registration-card .step-panel>label:not(.choice-card){
+  margin:19px 0 9px;
+  font-size:17px;
+}
+.registration-card input:not([type=radio]){
+  min-height:58px;
+  padding:14px 17px;
+  font-size:18px;
+}
+.registration-card input::placeholder{
+  color:#555;
+  font-size:16px;
+}
+.registration-card .field-hint{
+  margin:9px 0 20px;
+  font-size:16px;
+  line-height:1.6;
+}
+.registration-card .primary-button{
+  min-height:58px;
+  margin-top:26px;
+  border-radius:8px;
+  font-size:18px;
+}
+.registration-card .button-row{
+  gap:12px;
+  margin-top:26px;
+}
+.registration-card .button-row .primary-button,
+.registration-card .button-row .secondary-button{
+  min-height:56px;
+  font-size:17px;
+}
+.registration-card .choice-fieldset legend{
+  margin-bottom:20px;
+  font-size:23px;
+  line-height:1.5;
+}
+.registration-card .choice-card{
+  min-height:70px;
+  margin:12px 0;
+  padding:14px 17px;
+  font-size:18px;
+}
+.registration-card .choice-icon{
+  width:36px;
+  font-size:23px;
+}
+.registration-card .success-panel{padding-top:20px}
+.registration-card .success-panel h2{font-size:28px}
+.registration-card .success-panel p{font-size:18px}
+.site-shell:has(#registration-form) .site-footer{
+  width:min(1080px,100%);
+  padding-top:17px;
+  border-top:1px solid #eee;
+  font-size:15px;
+}
+
+@media(max-width:760px){
+  .site-shell:has(#registration-form) .site-header{
+    min-height:98px;
+    padding:8px 16px;
+  }
+  .site-shell:has(#registration-form) .brand img{
+    width:160px;
+    height:82px;
+  }
+  .site-shell:has(#registration-form) .admin-link{
+    min-height:46px;
+    padding:8px 11px;
+    font-size:15px;
+  }
+  .site-shell:has(#registration-form) .main-content{
+    padding:22px 14px 32px;
+  }
+  .registration-card{
+    padding:29px 23px 32px;
+    border-radius:12px;
+  }
+  .registration-card h1{font-size:30px}
+  .registration-card .intro{font-size:16px}
+  .registration-card .progress{margin:24px 0 26px}
+}
+@media(max-width:380px){
+  .site-shell:has(#registration-form) .brand img{
+    width:138px;
+    height:76px;
+  }
+  .site-shell:has(#registration-form) .admin-link{
+    padding-inline:8px;
+    font-size:14px;
+  }
+  .registration-card{padding-inline:18px}
+}
+
+/* Focused registration experience */
+.site-shell:has(#registration-form) .site-header{
+  min-height:112px;
+  border-bottom:0;
+}
+.site-shell:has(#registration-form) .brand img{
+  width:190px;
+  height:98px;
+}
+.site-shell:has(#registration-form) .main-content{
+  padding-top:18px;
+  padding-bottom:36px;
+}
+.registration-card{
+  width:min(100%,590px);
+  padding:0 42px 38px;
+  overflow:hidden;
+  border:1px solid #d6d6d6;
+  border-radius:18px;
+  box-shadow:0 14px 38px #0000000d;
+}
+.registration-card:before{content:none}
+.registration-heading{
+  margin:0 -42px 28px;
+  padding:31px 42px 29px;
+  color:#fff;
+  background:#000;
+  border-radius:0 0 18px 18px;
+  text-align:right;
+}
+.registration-heading .ramadan-decoration{
+  height:30px;
+  justify-content:flex-start;
+  margin:0 0 17px;
+  gap:17px;
+  color:#fff;
+}
+.registration-heading .crescent{font-size:22px}
+.registration-heading .lantern{font-size:18px}
+.registration-heading .eyebrow{
+  margin:0 0 4px;
+  color:#fff;
+  font-size:16px;
+}
+.registration-heading h1{
+  margin:0 0 5px;
+  color:#fff;
+  font-size:34px;
+  font-weight:800;
+  line-height:1.35;
+}
+.registration-heading .intro{
+  max-width:390px;
+  margin:0;
+  color:#fff;
+  font-size:17px;
+  line-height:1.65;
+}
+.registration-card .progress{margin:0 0 28px}
+.registration-card .progress-label{
+  color:#000;
+  font-size:15px;
+}
+.step-markers{
+  display:flex;
+  justify-content:space-between;
+  gap:10px;
+  margin-top:17px;
+}
+.step-marker{
+  display:flex;
+  align-items:center;
+  gap:8px;
+  color:#111;
+  font-size:14px;
+}
+.step-marker i{
+  position:relative;
+  width:29px;
+  height:29px;
+  display:grid;
+  place-items:center;
+  border:1.5px solid #000;
+  border-radius:50%;
+  font-size:14px;
+  font-style:normal;
+  font-weight:800;
+}
+.step-marker b{font-weight:700}
+.registration-card:has(.step-panel[data-step="1"]:not([hidden])) .step-marker:nth-child(1) i,
+.registration-card:has(.step-panel[data-step="2"]:not([hidden])) .step-marker:nth-child(2) i,
+.registration-card:has(.step-panel[data-step="3"]:not([hidden])) .step-marker:nth-child(3) i{
+  color:#fff;
+  background:#000;
+}
+.registration-card:has(.step-panel[data-step="2"]:not([hidden])) .step-marker:nth-child(1) i,
+.registration-card:has(.step-panel[data-step="3"]:not([hidden])) .step-marker:nth-child(-n+2) i{
+  font-size:0;
+  color:#fff;
+  background:#000;
+}
+.registration-card:has(.step-panel[data-step="2"]:not([hidden])) .step-marker:nth-child(1) i:after,
+.registration-card:has(.step-panel[data-step="3"]:not([hidden])) .step-marker:nth-child(-n+2) i:after{
+  content:"✓";
+  font-size:14px;
+}
+.registration-card .step-panel>label:not(.choice-card){margin-top:17px}
+.registration-card .choice-fieldset legend{font-size:22px}
+.registration-card .choice-card{
+  min-height:66px;
+  border-radius:10px;
+}
+.registration-card .primary-button,
+.registration-card .button-row .primary-button,
+.registration-card .button-row .secondary-button{
+  border-radius:10px;
+}
+.site-shell:has(#registration-form) .site-footer{
+  border-top:0;
+  padding-top:8px;
+}
+
+@media(max-width:760px){
+  .site-shell:has(#registration-form) .site-header{
+    min-height:88px;
+    padding:5px 15px;
+  }
+  .site-shell:has(#registration-form) .brand img{
+    width:150px;
+    height:76px;
+  }
+  .site-shell:has(#registration-form) .main-content{
+    padding:12px 14px 25px;
+  }
+  .registration-card{
+    padding:0 23px 27px;
+    border-radius:14px;
+  }
+  .registration-heading{
+    margin:0 -23px 23px;
+    padding:23px 23px 21px;
+    border-radius:0 0 14px 14px;
+  }
+  .registration-heading .ramadan-decoration{
+    height:25px;
+    margin-bottom:12px;
+  }
+  .registration-heading h1{font-size:29px}
+  .registration-heading .intro{font-size:16px}
+  .registration-card .progress{margin-bottom:23px}
+  .step-markers{gap:5px;margin-top:14px}
+  .step-marker{gap:6px;font-size:13px}
+  .step-marker i{width:27px;height:27px}
+  .registration-card .step-panel>label:not(.choice-card){margin-top:14px}
+  .registration-card input:not([type=radio]){min-height:55px}
+  .registration-card .field-hint{margin-bottom:15px}
+  .registration-card .primary-button{min-height:56px;margin-top:22px}
+}
+@media(max-width:370px){
+  .registration-card{padding-inline:18px}
+  .registration-heading{margin-inline:-18px;padding-inline:18px}
+  .step-marker{gap:4px;font-size:12px}
+  .step-marker i{width:25px;height:25px}
+}
+
+/* Classic monochrome registration style */
+.site-shell:has(#registration-form) .site-header{
+  position:relative;
+  justify-content:flex-start;
+  min-height:132px;
+  padding:12px 28px;
+  border-bottom:3px double #000;
+}
+.site-shell:has(#registration-form) .brand{
+  position:absolute;
+  left:50%;
+  transform:translateX(-50%);
+}
+.site-shell:has(#registration-form) .brand img{
+  width:180px;
+  height:106px;
+}
+.site-shell:has(#registration-form) .admin-link{
+  margin-inline-start:auto;
+  min-height:44px;
+  border:1px solid #000;
+  border-radius:3px;
+  background:#fff;
+  font-size:15px;
+}
+.site-shell:has(#registration-form) .admin-link:hover{background:#f5f5f5}
+.site-shell:has(#registration-form) .main-content{
+  padding:32px 18px 42px;
+}
+.registration-card{
+  width:min(100%,620px);
+  padding:36px 48px 42px;
+  border:3px double #000;
+  border-radius:3px;
+  box-shadow:none;
+  overflow:visible;
+}
+.registration-heading{
+  position:relative;
+  margin:0 0 28px;
+  padding:0 0 23px;
+  color:#000;
+  background:#fff;
+  border-radius:0;
+  border-bottom:1px solid #000;
+  text-align:center;
+}
+.registration-heading:after{
+  content:"";
+  position:absolute;
+  bottom:-5px;
+  left:calc(50% - 30px);
+  width:60px;
+  height:8px;
+  background:#fff;
+  border-top:1px solid #000;
+}
+.registration-heading .ramadan-decoration{
+  height:27px;
+  justify-content:center;
+  margin:0 0 12px;
+  gap:18px;
+  color:#000;
+}
+.registration-heading .eyebrow{
+  margin:0 0 3px;
+  color:#000;
+  font-size:16px;
+  letter-spacing:.03em;
+}
+.registration-heading h1{
+  margin:0 0 4px;
+  color:#000;
+  font-size:32px;
+}
+.registration-heading .intro{
+  max-width:none;
+  color:#111;
+  font-size:16px;
+}
+.registration-card .progress{margin:0 0 31px}
+.registration-card .progress-label{
+  margin-bottom:9px;
+  font-size:15px;
+}
+.registration-card .progress-track{
+  height:5px;
+  border-radius:0;
+  background:#eee;
+}
+.registration-card .progress-track span{border-radius:0}
+.step-markers{
+  position:relative;
+  margin:16px 4px 0;
+}
+.step-markers:before{
+  content:"";
+  position:absolute;
+  top:13px;
+  inset-inline:12%;
+  height:1px;
+  background:#999;
+}
+.step-marker{
+  z-index:1;
+  flex-direction:column;
+  gap:5px;
+  min-width:64px;
+  color:#000;
+  background:#fff;
+  text-align:center;
+}
+.step-marker i{
+  width:28px;
+  height:28px;
+  border:1px solid #000;
+  border-radius:50%;
+  background:#fff;
+  color:#000;
+  font-size:14px;
+}
+.registration-card:has(.step-panel[data-step="1"]:not([hidden])) .step-marker:nth-child(1) i,
+.registration-card:has(.step-panel[data-step="2"]:not([hidden])) .step-marker:nth-child(2) i,
+.registration-card:has(.step-panel[data-step="3"]:not([hidden])) .step-marker:nth-child(3) i{
+  color:#fff;
+  background:#000;
+}
+.registration-card:has(.step-panel[data-step="2"]:not([hidden])) .step-marker:nth-child(1) i,
+.registration-card:has(.step-panel[data-step="3"]:not([hidden])) .step-marker:nth-child(-n+2) i{
+  font-size:0;
+  color:#fff;
+  background:#000;
+}
+.step-marker b{font-size:13px}
+.registration-card .step-panel>label:not(.choice-card){
+  margin-top:16px;
+  font-size:17px;
+}
+.registration-card input:not([type=radio]){
+  border-radius:3px;
+  border-width:1px;
+  min-height:56px;
+}
+.registration-card input:focus{border-width:2px}
+.registration-card .field-hint{font-size:15px}
+.registration-card .primary-button,
+.registration-card .button-row .primary-button,
+.registration-card .button-row .secondary-button{
+  border-radius:3px;
+  min-height:54px;
+}
+.registration-card .choice-fieldset legend{
+  font-size:22px;
+  text-align:center;
+}
+.registration-card .choice-card{
+  border-radius:3px;
+  border-width:1px;
+}
+.registration-card .choice-card:has(input:checked){
+  border-width:2px;
+}
+.site-shell:has(#registration-form) .site-footer{
+  border-top:3px double #000;
+  padding-top:14px;
+}
+.footer-pattern{letter-spacing:3px}
+
+@media(max-width:760px){
+  .site-shell:has(#registration-form) .site-header{
+    min-height:100px;
+    padding:8px 14px;
+    border-bottom-width:2px;
+  }
+  .site-shell:has(#registration-form) .brand img{
+    width:142px;
+    height:82px;
+  }
+  .site-shell:has(#registration-form) .admin-link{
+    min-height:42px;
+    padding:7px 10px;
+    font-size:14px;
+  }
+  .site-shell:has(#registration-form) .main-content{
+    padding:21px 14px 28px;
+  }
+  .registration-card{
+    padding:27px 22px 30px;
+    border-width:2px;
+  }
+  .registration-heading{
+    margin-bottom:23px;
+    padding-bottom:19px;
+  }
+  .registration-heading h1{font-size:28px}
+  .registration-heading .intro{font-size:16px}
+  .registration-card .progress{margin-bottom:24px}
+  .step-markers{gap:3px;margin-inline:0}
+  .step-marker{min-width:55px;font-size:12px}
+  .step-marker b{font-size:12px}
+}
+@media(max-width:370px){
+  .site-shell:has(#registration-form) .brand img{
+    width:124px;
+    height:72px;
+  }
+  .registration-card{padding-inline:17px}
+  .registration-heading h1{font-size:26px}
+  .step-marker{min-width:48px}
+}
+
+/* Refined monochrome registration composition */
+.site-shell:has(#registration-form) .site-header{
+  width:min(1160px,100%);
+  min-height:104px;
+  padding:10px 24px;
+  border:0;
+  border-bottom:1px solid #e5e5e5;
+}
+.site-shell:has(#registration-form) .brand{
+  position:static;
+  transform:none;
+  display:flex;
+  align-items:center;
+  gap:13px;
+  text-decoration:none;
+}
+.site-shell:has(#registration-form) .brand img{
+  width:84px;
+  height:82px;
+}
+.brand-copy{
+  display:grid;
+  gap:2px;
+  color:#000;
+  line-height:1.35;
+}
+.brand-copy strong{font-size:18px;font-weight:800}
+.brand-copy>span{font-size:15px}
+.site-shell:has(#registration-form) .admin-link{
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  gap:8px;
+  min-height:48px;
+  padding:9px 17px;
+  border:1px solid #000;
+  border-radius:8px;
+  background:#fff;
+  color:#000;
+  font-size:16px;
+  font-weight:700;
+}
+.site-shell:has(#registration-form) .admin-link:hover{
+  color:#fff;
+  background:#000;
+}
+.site-shell:has(#registration-form) .main-content{
+  padding:34px 20px 42px;
+}
+.registration-card{
+  display:grid;
+  grid-template-columns:minmax(0,1fr) minmax(0,1.12fr);
+  grid-template-areas:
+    "hero progress"
+    "hero notice"
+    "hero form";
+  width:min(100%,1040px);
+  padding:10px;
+  overflow:hidden;
+  border:1px solid #d8d8d8;
+  border-radius:16px;
+  box-shadow:0 18px 48px #0000000c;
+  text-align:right;
+}
+.registration-heading{
+  grid-area:hero;
+  position:relative;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  min-height:515px;
+  margin:0;
+  padding:46px 39px;
+  overflow:hidden;
+  border:0;
+  border-radius:10px;
+  background:#000;
+  color:#fff;
+  text-align:right;
+}
+.registration-heading:before,
+.registration-heading:after{content:"";position:absolute;pointer-events:none}
+.registration-heading:before,
+.registration-heading:after{
+  z-index:0;
+  background:transparent;
+}
+.registration-heading>*{position:relative;z-index:1}
+.registration-heading:before{
+  width:190px;
+  height:190px;
+  top:-113px;
+  left:-98px;
+  border:1px solid #fff;
+  border-radius:50%;
+}
+.registration-heading:after{
+  width:220px;
+  height:220px;
+  top:-127px;
+  left:-113px;
+  border:1px solid #fff;
+  border-radius:50%;
+}
+.registration-heading .ramadan-decoration{
+  justify-content:flex-start;
+  height:37px;
+  margin:0 0 31px;
+  gap:16px;
+  color:#fff;
+}
+.registration-heading .crescent{font-size:28px}
+.registration-heading .lantern{font-size:20px}
+.registration-heading .eyebrow{
+  margin:0 0 10px;
+  color:#fff;
+  font-size:17px;
+  font-weight:700;
+}
+.registration-heading h1{
+  margin:0 0 14px;
+  max-width:360px;
+  color:#fff;
+  font-size:42px;
+  font-weight:800;
+  line-height:1.3;
+}
+.registration-heading .intro{
+  max-width:340px;
+  margin:0;
+  color:#fff;
+  font-size:18px;
+  line-height:1.8;
+}
+.registration-card .progress{
+  grid-area:progress;
+  margin:0;
+  padding:30px 38px 0;
+}
+.registration-card .progress-label{
+  margin-bottom:11px;
+  color:#000;
+  font-size:15px;
+}
+.registration-card .progress-track{
+  height:6px;
+  border-radius:99px;
+  background:#eee;
+}
+.registration-card .progress-track span{border-radius:99px}
+.step-markers{
+  gap:8px;
+  margin:15px 0 0;
+}
+.step-marker{
+  flex-direction:row;
+  justify-content:flex-start;
+  gap:7px;
+  min-width:auto;
+  background:transparent;
+  color:#111;
+  font-size:13px;
+  text-align:right;
+}
+.step-markers:before{content:none}
+.step-marker i{
+  flex:none;
+  width:27px;
+  height:27px;
+  border:1px solid #777;
+  border-radius:50%;
+}
+.step-marker b{font-size:13px}
+.registration-card .notice{
+  grid-area:notice;
+  margin:16px 38px 0;
+}
+.registration-card #registration-form{
+  grid-area:form;
+  padding:15px 38px 35px;
+}
+.registration-card .step-panel>label:not(.choice-card){
+  margin:12px 0 8px;
+  font-size:17px;
+}
+.registration-card input:not([type=radio]){
+  min-height:57px;
+  border:1px solid #b8b8b8;
+  border-radius:8px;
+  font-size:17px;
+}
+.registration-card input:not([type=radio]):focus{
+  border:2px solid #000;
+}
+.registration-card input::placeholder{
+  color:#666;
+  font-size:15px;
+}
+.registration-card .field-hint{
+  margin:8px 0 16px;
+  color:#111;
+  font-size:15px;
+}
+.registration-card .primary-button{
+  min-height:56px;
+  margin-top:21px;
+  border-radius:8px;
+  font-size:17px;
+}
+.registration-card .button-row{margin-top:20px}
+.registration-card .button-row .primary-button,
+.registration-card .button-row .secondary-button{
+  min-height:54px;
+  border-radius:8px;
+  font-size:16px;
+}
+.registration-card .choice-fieldset legend{
+  margin-bottom:15px;
+  font-size:21px;
+}
+.registration-card .choice-card{
+  min-height:64px;
+  margin:10px 0;
+  border-radius:8px;
+  font-size:17px;
+}
+.registration-card:has(.success-panel:not([hidden])){
+  display:block;
+  width:min(100%,560px);
+  padding:42px;
+  text-align:center;
+}
+.registration-card:has(.success-panel:not([hidden])) .success-panel{padding:0}
+.site-shell:has(#registration-form) .site-footer{
+  width:min(1160px,100%);
+  padding:13px 24px 18px;
+  border-top:1px solid #e5e5e5;
+  font-size:14px;
+}
+
+@media(max-width:760px){
+  .site-shell:has(#registration-form) .site-header{
+    min-height:86px;
+    padding:7px 15px;
+  }
+  .site-shell:has(#registration-form) .brand{gap:8px}
+  .site-shell:has(#registration-form) .brand img{
+    width:66px;
+    height:68px;
+  }
+  .brand-copy strong{font-size:15px}
+  .brand-copy>span{font-size:13px}
+  .site-shell:has(#registration-form) .admin-link{
+    min-height:42px;
+    padding:7px 10px;
+    font-size:14px;
+  }
+  .site-shell:has(#registration-form) .main-content{
+    padding:20px 14px 28px;
+  }
+  .registration-card{
+    grid-template-columns:minmax(0,1fr);
+    grid-template-areas:"hero" "progress" "notice" "form";
+    width:min(100%,510px);
+    padding:8px;
+    border-radius:13px;
+  }
+  .registration-heading{
+    min-height:0;
+    padding:25px 23px 23px;
+    border-radius:8px;
+  }
+  .registration-heading:before{
+    width:130px;
+    height:130px;
+    top:-78px;
+    left:-64px;
+  }
+  .registration-heading:after{
+    width:158px;
+    height:158px;
+    top:-93px;
+    left:-78px;
+  }
+  .registration-heading .ramadan-decoration{
+    height:25px;
+    margin-bottom:15px;
+  }
+  .registration-heading .crescent{font-size:23px}
+  .registration-heading h1{
+    margin-bottom:5px;
+    font-size:31px;
+  }
+  .registration-heading .intro{
+    max-width:340px;
+    font-size:16px;
+    line-height:1.65;
+  }
+  .registration-card .progress{padding:22px 17px 0}
+  .step-markers{justify-content:space-between;gap:4px;margin-top:13px}
+  .step-marker{gap:5px;font-size:12px}
+  .step-marker i{width:25px;height:25px;font-size:12px}
+  .step-marker b{font-size:12px}
+  .registration-card .notice{margin:13px 17px 0}
+  .registration-card #registration-form{padding:10px 17px 24px}
+  .registration-card .step-panel>label:not(.choice-card){margin-top:13px}
+  .registration-card input:not([type=radio]){min-height:54px}
+  .registration-card .field-hint{line-height:1.5}
+  .registration-card .primary-button{min-height:54px;margin-top:18px}
+  .registration-card .button-row{margin-top:17px}
+  .registration-card:has(.success-panel:not([hidden])){padding:32px 22px}
+  .site-shell:has(#registration-form) .site-footer{
+    padding:12px 16px 17px;
+    font-size:13px;
+  }
+}
+@media(max-width:370px){
+  .site-shell:has(#registration-form) .brand img{width:58px;height:62px}
+  .brand-copy strong{font-size:14px}
+  .brand-copy>span{font-size:12px}
+  .site-shell:has(#registration-form) .admin-link{padding-inline:8px;font-size:13px}
+  .registration-heading{padding-inline:18px}
+  .registration-card .progress{padding-inline:13px}
+  .step-marker{gap:3px;font-size:11px}
+  .step-marker b{font-size:11px}
+  .registration-card #registration-form{padding-inline:13px}
+}
+
+.registration-heading{
+  background:#fff;
+  color:#000;
+}
+.registration-heading .ramadan-decoration,
+.registration-heading .eyebrow,
+.registration-heading h1,
+.registration-heading .intro{color:#000}
+.registration-heading:before,
+.registration-heading:after{border-color:#000}
+
+.registration-heading{
+  background:radial-gradient(circle at 0 0,#fff 0 70px,transparent 71px),#000;
+  color:#fff;
+}
+.registration-heading .ramadan-decoration,
+.registration-heading .eyebrow,
+.registration-heading h1,
+.registration-heading .intro{color:#fff}
+.registration-heading:before,
+.registration-heading:after{border-color:#fff}

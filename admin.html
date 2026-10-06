@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#123c35">
+    <title>لوحة الإدارة | فريق الروضة</title>
+    <link rel="icon" href="/assets/logo.png" type="image/png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/style.css">
+  </head>
+  <body class="admin-page">
+    <div class="site-shell">
+      <header class="site-header admin-header"><a class="brand" href="/"><img src="/assets/logo.png" alt="شعار فريق الروضة الرياضي الثقافي"></a><a class="admin-link" href="/">صفحة التسجيل <span aria-hidden="true">←</span></a></header>
+      <main class="admin-main">
+        <section id="login-view" class="login-card" hidden>
+          <img class="login-logo" src="/assets/logo.png" alt="شعار فريق الروضة الرياضي الثقافي">
+          <div class="eyebrow">منطقة المشرفين</div><h1>تسجيل دخول الإدارة</h1>
+          <p class="intro">أدخل بيانات حسابك لمتابعة المشاركين</p>
+          <div id="login-notice" class="notice" role="alert" hidden></div>
+          <form id="login-form" novalidate>
+            <label for="username">اسم المستخدم</label><input id="username" name="username" autocomplete="username" required maxlength="64">
+            <label for="password">كلمة المرور</label><input id="password" name="password" type="password" autocomplete="current-password" required>
+            <button class="primary-button" type="submit">دخول</button>
+          </form>
+        </section>
+        <section id="dashboard-view" hidden>
+          <div class="dashboard-heading"><div><div class="eyebrow">إدارة البطولة</div><h1>قائمة المشاركين</h1><p class="intro">عرض وإدارة تسجيلات البطولة الرمضانية</p></div><button id="logout-button" class="secondary-button" type="button">تسجيل الخروج</button></div>
+          <div id="dashboard-notice" class="notice" role="alert" hidden></div>
+          <div class="stats-grid">
+            <article class="stat-card"><span>إجمالي المسجلين</span><strong id="stat-total">٠</strong></article>
+            <article class="stat-card"><span>لاعبو كرة القدم</span><strong id="stat-football">٠</strong></article>
+            <article class="stat-card"><span>لاعبو الكرة الطائرة</span><strong id="stat-volleyball">٠</strong></article>
+            <article class="stat-card"><span>الراغبون بالقيادة</span><strong id="stat-leaders">٠</strong></article>
+          </div>
+          <div class="toolbar">
+            <label class="search-field"><span aria-hidden="true">⌕</span><input id="search-name" type="search" placeholder="ابحث بالاسم الخماسي" aria-label="ابحث بالاسم الخماسي"></label>
+            <label class="filter-field"><span class="sr-only">فلتر كرة القدم</span><select id="filter-football"><option value="all">كرة القدم: الكل</option><option value="yes">المشاركون</option><option value="no">غير المشاركين</option></select></label>
+            <label class="filter-field"><span class="sr-only">فلتر الكرة الطائرة</span><select id="filter-volleyball"><option value="all">الكرة الطائرة: الكل</option><option value="yes">المشاركون</option><option value="no">غير المشاركين</option></select></label>
+            <label class="filter-field"><span class="sr-only">فلتر القادة</span><select id="filter-leader"><option value="all">القادة: الكل</option><option value="yes">الراغبون بالقيادة</option><option value="no">غير الراغبين</option></select></label>
+            <button id="print-button" class="primary-button print-button" type="button">طباعة / حفظ PDF</button>
+          </div>
+          <div class="table-wrap"><table class="registrants-table"><thead><tr><th scope="col">الرقم</th><th scope="col">الاسم الخماسي</th><th scope="col">رقم الهاتف</th><th scope="col">كرة القدم</th><th scope="col">الكرة الطائرة</th><th scope="col">قائد</th><th scope="col">تاريخ التسجيل</th><th scope="col">إجراء</th></tr></thead><tbody id="registrants-body"></tbody></table><div id="empty-state" class="empty-state" hidden>لا توجد تسجيلات مطابقة.</div></div>
+        </section>
+        <div id="loading-view" class="loading-state"><span class="spinner" aria-hidden="true"></span><span>جارٍ التحقق من الجلسة…</span></div>
+      </main>
+      <footer class="site-footer"><span>فريق الروضة الرياضي الثقافي</span><span class="footer-pattern" aria-hidden="true">▰ ▰ ▰ ▰ ▰ ▰ ▰</span></footer>
+    </div>
+    <script src="/admin.js" defer></script>
+  </body>
+</html>

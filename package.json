@@ -1,0 +1,12 @@
+{
+  "name": "al-roudah-ramadan-registration",
+  "version": "1.0.0",
+  "private": true,
+  "description": "التسجيل في البطولة الرمضانية لفريق الروضة الرياضي الثقافي",
+  "engines": {
+    "node": ">=22"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.57.0"
+  }
+}

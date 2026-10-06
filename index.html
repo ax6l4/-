@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#123c35">
+    <meta name="description" content="التسجيل في البطولة الرمضانية لفريق الروضة الرياضي الثقافي">
+    <title>التسجيل | فريق الروضة الرياضي الثقافي</title>
+    <link rel="icon" href="/assets/logo.png" type="image/png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/style.css">
+  </head>
+  <body>
+    <div class="site-shell">
+      <header class="site-header">
+        <a class="brand" href="/" aria-label="فريق الروضة الرياضي الثقافي">
+          <img src="/assets/logo.png" alt="شعار فريق الروضة الرياضي الثقافي">
+          <span class="brand-copy">
+            <strong>فريق الروضة</strong>
+            <span>الرياضي الثقافي</span>
+          </span>
+        </a>
+        <a class="admin-link" href="/admin">دخول الإدارة <span aria-hidden="true">←</span></a>
+      </header>
+      <main class="main-content">
+        <section class="registration-card" aria-labelledby="page-title">
+          <div class="registration-heading">
+            <div class="ramadan-decoration" aria-hidden="true">
+              <span class="crescent">☾</span><span class="lantern">✧</span><span class="crescent">☽</span>
+            </div>
+            <div class="eyebrow">بطولة الروضة الرمضانية</div>
+            <h1 id="page-title">سجّل مشاركتك</h1>
+            <p class="intro">كن جزءًا من أجواء التنافس والألفة في شهر الخير</p>
+          </div>
+          <div class="progress" aria-label="خطوات التسجيل">
+            <div class="progress-label"><span id="step-label">الخطوة ١ من ٣</span><span id="step-caption">بياناتك</span></div>
+            <div class="progress-track"><span id="progress-fill"></span></div>
+            <div class="step-markers" aria-hidden="true">
+              <span class="step-marker"><i>١</i><b>بياناتك</b></span>
+              <span class="step-marker"><i>٢</i><b>الرياضة</b></span>
+              <span class="step-marker"><i>٣</i><b>القيادة</b></span>
+            </div>
+          </div>
+          <div id="notice" class="notice" role="alert" hidden></div>
+          <form id="registration-form" novalidate>
+            <section class="step-panel" data-step="1">
+              <label for="full-name">الاسم الخماسي</label>
+              <input id="full-name" name="fullName" type="text" autocomplete="name" maxlength="120" required>
+              <label for="phone">رقم الهاتف</label>
+              <input id="phone" name="phone" type="tel" inputmode="numeric" autocomplete="tel" maxlength="20" required>
+              <button class="primary-button" type="button" data-next>التالي <span aria-hidden="true">←</span></button>
+            </section>
+            <section class="step-panel" data-step="2" hidden>
+              <fieldset class="choice-fieldset">
+                <legend>هل ترغب في المشاركة في؟</legend>
+                <label class="choice-card"><input type="radio" name="sport" value="football"><span class="choice-icon" aria-hidden="true">⚽</span><span>كرة القدم</span><span class="radio-mark"></span></label>
+                <label class="choice-card"><input type="radio" name="sport" value="volleyball"><span class="choice-icon" aria-hidden="true">◉</span><span>الكرة الطائرة</span><span class="radio-mark"></span></label>
+                <label class="choice-card"><input type="radio" name="sport" value="both"><span class="choice-icon" aria-hidden="true">✦</span><span>كلاهما معًا</span><span class="radio-mark"></span></label>
+              </fieldset>
+              <div class="button-row"><button class="secondary-button" type="button" data-back>السابق</button><button class="primary-button" type="button" data-next>التالي <span aria-hidden="true">←</span></button></div>
+            </section>
+            <section class="step-panel" data-step="3" hidden>
+              <fieldset class="choice-fieldset">
+                <legend>هل ترغب بأن تكون قائد فريق؟</legend>
+                <label class="choice-card"><input type="radio" name="leader" value="yes"><span class="choice-icon" aria-hidden="true">♛</span><span>نعم</span><span class="radio-mark"></span></label>
+                <label class="choice-card"><input type="radio" name="leader" value="no"><span class="choice-icon" aria-hidden="true">◇</span><span>لا</span><span class="radio-mark"></span></label>
+              </fieldset>
+              <div class="button-row"><button class="secondary-button" type="button" data-back>السابق</button><button id="submit-registration" class="primary-button" type="submit">تسجيل</button></div>
+            </section>
+          </form>
+          <section id="success-panel" class="success-panel" hidden aria-live="polite">
+            <div class="success-icon" aria-hidden="true">✓</div>
+            <h2>تم تسجيلك بنجاح</h2>
+            <p>بالتوفيق في البطولة الرمضانية</p>
+            <a class="secondary-button home-button" href="/">العودة إلى البداية</a>
+          </section>
+        </section>
+      </main>
+      <footer class="site-footer"><span>فريق الروضة الرياضي الثقافي</span><span class="footer-pattern" aria-hidden="true">▰ ▰ ▰ ▰ ▰ ▰ ▰</span></footer>
+    </div>
+    <script src="/app.js" defer></script>
+  </body>
+</html>

@@ -16,3 +16,4 @@ npm-debug.log*
 # https://docs.deno.com/runtime/reference/cli/coverage/
 coverage/
 *.lcov
+.vercel

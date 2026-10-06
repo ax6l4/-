@@ -2,6 +2,15 @@
 
 موقع عربي متجاوب للتسجيل في البطولة الرمضانية، مع لوحة إدارة خاصة، وقاعدة بيانات PostgreSQL على Supabase. الواجهة ثابتة وخدمات الخادم تعمل كـ Vercel Functions.
 
+## روابط المشروع المنشور
+
+- الموقع: [al-roudah-ramadan.vercel.app](https://al-roudah-ramadan.vercel.app/)
+- لوحة الإدارة: [al-roudah-ramadan.vercel.app/admin](https://al-roudah-ramadan.vercel.app/admin)
+- مستودع GitHub: [github.com/ax6l4/-](https://github.com/ax6l4/-)
+- إعداد متغيرات Vercel: [Environment Variables](https://vercel.com/ax6l4s-projects/al-roudah-ramadan/settings/environment-variables)
+
+تم ربط فرع `main` من GitHub بمشروع Vercel، لذلك تؤدي التغييرات التي تُرفع إلى الفرع إلى نشر جديد تلقائيًا. واجهة الموقع منشورة حاليًا، لكن التسجيل ودخول الإدارة لن يعملا قبل إنشاء مشروع Supabase وإضافة متغيراته أدناه.
+
 ## التشغيل والنشر
 
 ### ١. إعداد قاعدة البيانات
@@ -29,13 +38,12 @@ where email = 'البريد-الذي-أضفته@example.com';
 
 ### ٣. نشر الموقع على Vercel
 
-1. ارفع ملفات المشروع إلى مستودع GitHub (ويُفضّل أن يكون خاصًا)، ثم اربطه بمشروع جديد في [Vercel](https://vercel.com/).
-2. اختر مجلد المشروع جذرًا للمشروع. لا يلزم أمر بناء؛ يتولى Vercel نشر الصفحات والوظائف في `api/`.
-3. في **Project Settings → Environment Variables** أضف:
+1. المشروع مرتبط بالفعل بمستودع GitHub أعلاه ومشروع Vercel `al-roudah-ramadan`.
+2. في **Project Settings → Environment Variables** أضف:
    - `SUPABASE_URL`
    - `SUPABASE_ANON_KEY`
    - `SUPABASE_SERVICE_ROLE_KEY`
-4. أعد النشر بعد إضافة المتغيرات. صفحة التسجيل هي `/` ولوحة الإدارة هي `/admin`.
+3. اختر بيئات **Production** و**Preview** حسب الحاجة، ثم أعد النشر بعد إضافة المتغيرات. صفحة التسجيل هي `/` ولوحة الإدارة هي `/admin`.
 
 للتشغيل المحلي، ثبّت Node.js 22 أو أحدث وVercel CLI، انسخ `.env.example` إلى `.env.local` واملأ القيم، ثم شغّل:
 
